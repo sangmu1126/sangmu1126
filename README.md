@@ -1,5 +1,11 @@
 ### Hi there 👋
 
+<h1>title</h1>
+<strong>text</strong>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzwEicYLTmxKTFhG9D65nl8OesjX1PTQD27g&usqp=CAU" align="right"/>
+
+![sangmu1126's GitHub Stats](https://github-readme-stats.vercel.app/api?username=sangmu1126&show_icons=true)
+
 <!--
 **sangmu1126/sangmu1126** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
