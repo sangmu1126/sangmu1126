@@ -1,7 +1,6 @@
 ### Hi there 👋
 
 <h1>Sooming_</h1>
-<strong>text</strong>
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzwEicYLTmxKTFhG9D65nl8OesjX1PTQD27g&usqp=CAU" align="right"/>
 
 ![sangmu1126's GitHub Stats](https://github-readme-stats.vercel.app/api?username=sangmu1126&show_icons=true)
