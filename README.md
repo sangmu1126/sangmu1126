@@ -31,8 +31,8 @@ Back-end Developer | Passionate Problem Solver | Optimization Enthusiast
 > → 팀원 모두 AI 비전공자였지만 성공적인 결과 도출
 
 ## 📫 Contact
-- Email: [sangmu1126@gmail.com]
-- Notion Portfolio: [(https://sooming99.notion.site/Sangmu-Lee-13432d2f56c4808197f9c5e951edbca0?pvs=74)]
+- Email: sangmu1126@gmail.com
+- Notion Portfolio: (https://sooming99.notion.site/Sangmu-Lee-13432d2f56c4808197f9c5e951edbca0?pvs=74)
 
 ![sangmu1126's GitHub Stats](https://github-readme-stats.vercel.app/api?username=sangmu1126&show_icons=true)
 
