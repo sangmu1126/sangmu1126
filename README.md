@@ -34,12 +34,6 @@ Back-end Developer | Passionate Problem Solver | Optimization Enthusiast
 - Email: [sangmu1126@gmail.com]
 - Notion Portfolio: [(https://sooming99.notion.site/Sangmu-Lee-13432d2f56c4808197f9c5e951edbca0?pvs=74)]
 
-
-
-
-
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzwEicYLTmxKTFhG9D65nl8OesjX1PTQD27g&usqp=CAU" align="right"/>
-
 ![sangmu1126's GitHub Stats](https://github-readme-stats.vercel.app/api?username=sangmu1126&show_icons=true)
 
 <!--
