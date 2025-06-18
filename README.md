@@ -19,16 +19,13 @@ Back-end Developer | Passionate Problem Solver | Optimization Enthusiast
 ## 🛠️ Featured Projects
 
 ### 🔹 [Google Solution Challenge Top 100 - Mingle](https://github.com/sangmu1126/MingleGDSC)
-> Flutter + Firebase 기반의 커뮤니티 앱  
-> → 사용자 맞춤 추천 기능 및 실시간 알림 구현
+> Flutter + Firebase 기반의 한국어 교육 앱  
 
 ### 🔹 [지역 정보 제공 플랫폼](https://github.com/sangmu1126/EveryTown)
 > Elasticsearch 기반 검색 최적화 / Docker로 배포 자동화  
-> → 기존 검색 대비 속도 2배 향상
 
 ### 🔹 [AI 기반 에너지 관리 시스템](https://github.com/sangmu1126/NewJeanse)
 > 팀장으로서 AI 모델 설계 및 대규모 데이터 전처리 주도  
-> → 팀원 모두 AI 비전공자였지만 성공적인 결과 도출
 
 ## 📫 Contact
 - Email: sangmu1126@gmail.com
