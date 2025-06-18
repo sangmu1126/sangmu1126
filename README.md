@@ -18,7 +18,7 @@ Back-end Developer | Passionate Problem Solver | Optimization Enthusiast
 
 ## 🛠️ Featured Projects
 
-### 🔹 [Google Solution Challenge Top 100 - Mingle]()
+### 🔹 [Google Solution Challenge Top 100 - Mingle](https://github.com/sangmu1126/MingleGDSC)
 > Flutter + Firebase 기반의 커뮤니티 앱  
 > → 사용자 맞춤 추천 기능 및 실시간 알림 구현
 
