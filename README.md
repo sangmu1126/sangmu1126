@@ -34,10 +34,10 @@ Back-end Developer | Passionate Problem Solver | Optimization Enthusiast
 - Email: sangmu1126@gmail.com
 - Notion Portfolio: https://sooming99.notion.site/Sangmu-Lee-13432d2f56c4808197f9c5e951edbca0?pvs=74
 
-![sangmu1126's GitHub Stats](https://github-readme-stats.vercel.app/api?username=sangmu1126&show_icons=true)
-
 <!--
 **sangmu1126/sangmu1126** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+![sangmu1126's GitHub Stats](https://github-readme-stats.vercel.app/api?username=sangmu1126&show_icons=true)
 
 Here are some ideas to get you started:
 
