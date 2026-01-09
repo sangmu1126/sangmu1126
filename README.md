@@ -1,49 +1,77 @@
 # 👋 Hi, I'm LEE SANGMU
 
-Back-end Developer | Passionate Problem Solver | Optimization Enthusiast
+### **Systems Architect & Performance Engineer** 🐧
+*> "I don't just use the cloud; I engineer the underlying systems."*
 
-## 🌟 About Me
-- 💻 Java & Spring Boot 기반 Back-end 개발 경험
-- 🔍 데이터 처리 최적화 및 검색 성능 향상 경험 (Elasticsearch 활용)
-- 🌍 Firebase, GCP, AWS 등 클라우드 환경에서의 프로젝트 운영 경험
-- 🤝 다양한 협업 툴(Figma, Notion, GitHub 등)을 활용한 팀 프로젝트 다수
-- 📈 꾸준한 성장과 학습을 즐기는 개발자
+<div align="center">
+  <br />
+  
+  <a href="mailto:sangmu1126@gmail.com">
+    <img src="https://img.shields.io/badge/Email-sangmu1126%40gmail.com-d14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://sooming99.notion.site/Sangmu-Lee-13432d2f56c4808197f9c5e951edbca0?pvs=74">
+    <img src="https://img.shields.io/badge/Portfolio-Notion-000000?style=flat-square&logo=notion&logoColor=white" alt="Portfolio" />
+  </a>
+  <a href="https://github.com/sangmu1126">
+    <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+  </a>
 
-## 🧠 Skills
-**Languages**: Java, Python, JavaScript, Dart  
-**Frameworks**: Spring Boot, Flutter, React  
-**Database**: MySQL, MongoDB, Firebase Realtime DB  
-**Tools**: Docker, Git, IntelliJ, VSCode  
-**Cloud**: GCP, AWS  
+  <br />
+  <br />
 
-## 🛠️ Featured Projects
+  Systems Engineer passionate about diving deep into **OS kernels (Cgroups)** and optimizing distributed systems.  
+  Specialized in building **High-Performance Infrastructure** on AWS using **Terraform** and **Docker**.
 
-### 🔹 [Google Solution Challenge Top 100 - Mingle](https://github.com/sangmu1126/MingleGDSC)
-> Flutter + Firebase 기반의 한국어 교육 앱  
+</div>
 
-### 🔹 [지역 정보 제공 플랫폼](https://github.com/sangmu1126/EveryTown)
-> Elasticsearch 기반 검색 최적화 / Docker로 배포 자동화  
+---
 
-### 🔹 [AI 기반 에너지 관리 시스템](https://github.com/sangmu1126/NewJeanse)
-> 팀장으로서 AI 모델 설계 및 대규모 데이터 전처리 주도  
+## 🚀 Technical Arsenal
 
-## 📫 Contact
-- Email: sangmu1126@gmail.com
-- Notion Portfolio: https://sooming99.notion.site/Sangmu-Lee-13432d2f56c4808197f9c5e951edbca0?pvs=74
+| Domain | Technolgies |
+| :--- | :--- |
+| **Core Systems** | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) |
+| **Cloud & IaC** | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) |
+| **Backend** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) |
+| **Data & Search** | ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![ElasticSearch](https://img.shields.io/badge/ElasticSearch-005571?style=flat-square&logo=elasticsearch&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) |
 
-<!--
-**sangmu1126/sangmu1126** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-![sangmu1126's GitHub Stats](https://github-readme-stats.vercel.app/api?username=sangmu1126&show_icons=true)
+## 🌟 Featured Projects
 
-Here are some ideas to get you started:
+### 1️⃣ [Infra-FaaS: Custom Serverless Engine](https://github.com/sangmu1126/Infra-controller)
+**Building a High-Performance FaaS Platform from Scratch (on EC2 & Docker)**
+> *"Why accept the Cold Start latency of managed services when you can engineer it away?"*
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Designed and implemented a proprietary Serverless Engine to overcome the limitations of AWS Lambda (Cold Start & Monitoring).
+- **Core Engine**: Built a custom orchestrator replacing Kubelet, managing container lifecycles via direct Docker Socket control.
+- **Zero Cold Start**: Engineered a **"Heavy Warm Pool"** architecture, reducing function wakeup time by **95% (sub-100ms)**.
+- **Kernel-Level Tuning**: Developed a **Smart Auto-Tuner** leveraging **Linux Cgroup v2** metrics (memory.peak, cpu.stat) to optimize resource allocation automatically.
+- **Event-Driven Scaling**: Implemented a **SQS Backlog-based** autoscaler using Terraform ASG policies to handle burst traffic reliable.
+
+### 2️⃣ [NewJeanse: AI Energy Management](https://github.com/sangmu1126/NewJeanse)
+**Large-scale Power Data Analysis & AI Model Serving**
+> *Backend Lead & Data Engineer*
+
+- **Pipeline Optimization**: Refactored Airflow ETL workflows, reducing daily data processing time by **60%**.
+- **Real-time Serving**: Wrapped heavy ML models with **FastAPI** for low-latency inference, ensuring high availability for end-users.
+
+### 3️⃣ [EveryTown: Location Search Engine](https://github.com/sangmu1126/EveryTown)
+**Elasticsearch-based GEO Search Platform**
+> *Backend Developer*
+
+- **Search Performance**: Migrated complex RDB queries to **Elasticsearch**, boosting search speed from **2.0s to 0.2s (10x)** using inverted indexes.
+- **DevOps**: Standardized the entire development lifecycle using **Docker Compose**, reducing onboarding time for new team members.
+
+### 4️⃣ [Mingle: Global EdTech Platform](https://github.com/sangmu1126/MingleGDSC)
+**Google Solution Challenge 2024 - Global Top 100**
+> *Backend Architecture & Cloud Deployment*
+
+- **Global Scalability**: Designed a scalable backend usage Firebase & Cloud Functions to support users worldwide.
+- **Recognition**: Selected as a Top 100 project globally, recognized for technical execution and social impact.
+
+---
+
+<div align="center">
+  <sub>Designed & Engineered by Sangmu Lee</sub>
+</div>
