@@ -1,39 +1,32 @@
-# 👋 Hi, I'm LEE SANGMU
+# 👋 Hi, I'm Sangmu
 
-### **Systems Architect & Performance Engineer** 🐧
-*> "I don't just use the cloud; I engineer the underlying systems."*
+### **Backend & Infrastructure Engineer**
 
 <div align="center">
   <br />
-  
-  <a href="mailto:sangmu1126@gmail.com">
-    <img src="https://img.shields.io/badge/Email-sangmu1126%40gmail.com-d14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://sooming99.notion.site/Sangmu-Lee-13432d2f56c4808197f9c5e951edbca0?pvs=74">
-    <img src="https://img.shields.io/badge/Portfolio-Notion-000000?style=flat-square&logo=notion&logoColor=white" alt="Portfolio" />
-  </a>
-  <a href="https://github.com/sangmu1126">
-    <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-
+  <a href="mailto:sangmu1126@gmail.com"><img src="https://img.shields.io/badge/Email-sangmu1126%40gmail.com-d14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>&nbsp;
+  <a href="https://sooming99.notion.site/Sangmu-Lee-13432d2f56c4808197f9c5e951edbca0?pvs=74"><img src="https://img.shields.io/badge/Portfolio-Notion-000000?style=flat-square&logo=notion&logoColor=white" alt="Portfolio" /></a>&nbsp;
+  <a href="https://github.com/sangmu1126"><img src="https://img.shields.io/badge/GitHub-Profile-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
   <br />
   <br />
-
-  Systems Engineer passionate about diving deep into **OS kernels (Cgroups)** and optimizing distributed systems.  
-  Specialized in building **High-Performance Infrastructure** on AWS using **Terraform** and **Docker**.
-
 </div>
+
+- **Backend Development**: Python (FastAPI/Django), Node.js, Java (Spring Boot)
+- **Cloud Infrastructure**: AWS, Terraform, Docker, Linux System Programming
+- **Focus**: Building scalable distributed systems and optimizing resource efficiency.
 
 ---
 
-## 🚀 Technical Arsenal
+## � Tech Stack
 
-| Domain | Technolgies |
-| :--- | :--- |
-| **Core Systems** | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) |
-| **Cloud & IaC** | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) |
-| **Backend** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) |
-| **Data & Search** | ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![ElasticSearch](https://img.shields.io/badge/ElasticSearch-005571?style=flat-square&logo=elasticsearch&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) |
+### Languages
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white) ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+### Infrastructure & Cloud
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+
+### Database & Tools
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![ElasticSearch](https://img.shields.io/badge/ElasticSearch-005571?style=flat-square&logo=elasticsearch&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 ---
 
@@ -69,9 +62,3 @@ Designed and implemented a proprietary Serverless Engine to overcome the limitat
 
 - **Global Scalability**: Designed a scalable backend usage Firebase & Cloud Functions to support users worldwide.
 - **Recognition**: Selected as a Top 100 project globally, recognized for technical execution and social impact.
-
----
-
-<div align="center">
-  <sub>Designed & Engineered by Sangmu Lee</sub>
-</div>
