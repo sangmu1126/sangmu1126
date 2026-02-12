@@ -32,7 +32,7 @@
 
 ## 🌟 Featured Projects
 
-### 1️⃣ [Infra-FaaS: Custom Serverless Engine](https://github.com/sangmu1126/FaaS_Platform)
+### 1️⃣ [Infra-FaaS: Custom Serverless Engine](https://github.com/sangmu1126/FaaS-Platform)
 **Building a High-Performance FaaS Platform from Scratch (on EC2 & Docker)**
 > *"Why accept the Cold Start latency of managed services when you can engineer it away?"*
 
