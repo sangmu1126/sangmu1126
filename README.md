@@ -1,64 +1,95 @@
-# 👋 Hi, I'm Sangmu
+# Sangmu Lee
 
-### **Backend & Infrastructure Engineer**
+**Backend & Cloud Infrastructure Engineer** · Seoul, South Korea
 
-<div align="center">
-  <br />
-  <a href="mailto:sangmu1126@gmail.com"><img src="https://img.shields.io/badge/Email-sangmu1126%40gmail.com-d14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>&nbsp;
-  <a href="https://sooming99.notion.site/Sangmu-Lee-13432d2f56c4808197f9c5e951edbca0?pvs=74"><img src="https://img.shields.io/badge/Portfolio-Notion-000000?style=flat-square&logo=notion&logoColor=white" alt="Portfolio" /></a>&nbsp;
-  <a href="https://github.com/sangmu1126"><img src="https://img.shields.io/badge/GitHub-Profile-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
-  <br />
-  <br />
-</div>
+I build backend systems and cloud infrastructure with a focus on **reliability, performance, and resource efficiency**. I enjoy tracing problems to their root causes, validating changes through measurements, and documenting engineering decisions.
 
-- **Backend Development**: Python (FastAPI/Django), Node.js, Java (Spring Boot)
-- **Cloud Infrastructure**: AWS, Terraform, Docker, Linux System Programming
-- **Focus**: Building scalable distributed systems and optimizing resource efficiency.
+[**Portfolio**](https://sooming99.notion.site/Sangmu-Lee-13432d2f56c4808197f9c5e951edbca0?pvs=74) · [**Email**](mailto:sangmu1126@gmail.com) · [**GitHub**](https://github.com/sangmu1126)
+
+## Technical Skills
+
+| Area | Technologies |
+| --- | --- |
+| **Cloud & Infrastructure** | AWS, Kubernetes, Docker, Terraform, Helm, Packer, Linux |
+| **Backend** | Python, Java, Node.js, FastAPI, Express.js, Spring Boot |
+| **DevOps & Observability** | GitHub Actions, Prometheus, Grafana, k6 |
+| **Databases & Messaging** | PostgreSQL, MySQL, MongoDB, Redis, Amazon SQS |
+| **Frontend & Mobile** | HTML5, CSS3, JavaScript, TypeScript, React, Next.js, Flutter, Android |
+
+## Featured Projects
+
+### [FaaS Platform](https://github.com/sangmu1126/FaaS-Platform) · Custom Serverless Execution Platform
+
+**AWS · EC2 · SQS · Docker · Redis · Terraform · Linux Cgroup v2**
+
+Independently redesigned a hackathon project into an AWS-based platform for running user-uploaded functions inside Docker containers.
+
+- Separated request handling from function execution with **Controller → SQS → Worker**, using Redis Pub/Sub for synchronous responses.
+- Built reusable container warm pools and safeguards for process cleanup, execution-slot management, and user-code isolation.
+- Provisioned the infrastructure with Terraform and Packer, and configured SQS backlog-based Worker Auto Scaling.
+- **Validation:** Completed **181/181 synchronous function invocations** at 3 offered RPS over 60 seconds on one `t3.micro` Worker. Separately measured **445.57 accepted requests/s** on the Controller's private HTTP path; this is request admission, not function completion throughput.
+
+[Documentation](https://github.com/sangmu1126/FaaS-Platform) · [Demo video](https://youtu.be/TyCFOvRkNCc)
+
+### [PipeLens](https://github.com/sangmu1126/PipeLens) · Evidence-Based CI Failure Diagnosis
+
+**FastAPI · PostgreSQL · Redis · GitHub App · OpenAI · Prometheus**
+
+Developed a GitHub App that correlates failed GitHub Actions logs with code changes and workflow configuration to suggest verifiable diagnoses.
+
+- Combined rule-based analysis with optional LLM diagnosis; checked evidence citations and file-level suggestions before publishing results.
+- Implemented webhook verification, untrusted-fork isolation, sensitive-data redaction, and idempotent GitHub reporting.
+- Designed failure recovery using Redis worker leases, heartbeats, **fencing tokens**, and database/queue reconciliation.
+- **Validation:** Completed **3,605 jobs in a one-hour, four-worker synthetic soak test** on a single Docker host, with zero lost jobs or duplicate completions.
+
+[Documentation](https://github.com/sangmu1126/PipeLens)
+
+### [KubeFit](https://github.com/sangmu1126/Kubefit) · Kubernetes Resource Optimization
+
+**Kubernetes · Prometheus · AWS EKS · Helm · k6 · Python · GitOps**
+
+Built a tool to analyze Kubernetes workloads, recommend CPU and memory resource settings, validate changes, and open GitHub Draft PRs for human review.
+
+- Correlated Deployment and Pod identities with metrics; derived recommendations from **CPU P95** and **memory P99** with safety margins.
+- Compared baseline and candidate settings under fixed load and added CPU-throttling evidence to prevent misleading performance-only PASS decisions.
+- Preserved human approval rather than automatically merging or deploying changes.
+- **Validation:** Completed a **60-minute EKS pilot (100,503 requests; zero HTTP errors)** for metric collection and read-only recommendation. Actual AWS cost savings were **not** demonstrated.
+
+[Documentation](https://github.com/sangmu1126/Kubefit) · [Demo video](https://youtu.be/HQRzH8ce2a4)
+
+## Other Projects
+
+| Project | Highlights |
+| --- | --- |
+| [EveryTown](https://github.com/sangmu1126/EveryTown) | Spring Boot and Elasticsearch location-based search platform. Reduced query latency from approximately **2 s to 200 ms** in historical local measurements. |
+| [Mingle](https://github.com/sangmu1126/MingleGDSC) | Flutter and Firebase educational application; selected for the **Google Solution Challenge 2024 Global Top 100**. |
+| [ElectricKo! / NewJeanse](https://github.com/sangmu1126/NewJeanse) | Led a five-member AI energy management project; worked on predictive modeling and backend APIs. |
+
+## Experience & Activities
+
+| Period | Activity |
+| --- | --- |
+| **Oct – Nov 2026** | **SoftBank Hackathon 2026** — Developed an AI-assisted AWS infrastructure provisioning and optimization platform in the preliminary round; contributed to security and observability for an AWS-to-on-premises migration platform in the final round. |
+| **Aug 2026** | **Open Source Developer Contest 2026** — Submitted KubeFit, a Kubernetes resource optimization tool validated on AWS EKS. |
+| **Jun – Jul 2026** | **AX 인재전쟁 2026** — Built an investment-assistance plugin for a KakaoPay Securities challenge. |
+| **Nov – Dec 2025** | **SoftBank Hackathon 2025 in Korea** — Developed a web-app deployment platform in the preliminary round and an AWS serverless function execution platform in the final round. |
+| **Sep 2025 – Apr 2026** | **Soldesk** — Completed an AWS-based Cloud DevOps training program. |
+| **Mar – Nov 2024** | **K-Software Empowerment Bootcamp (KEB), Cohort 3** — Completed a university–industry software development training program. |
+| **Aug 2023 – Aug 2024** | **Google Developer Student Clubs (GDSC)** — Participated in a university developer community. |
+| **Sep 2021 – Aug 2025** | **Kaiwa, university Japanese language & culture club** — Served as Vice President in the first semester of 2022 and President in the second semester. |
+| **Sep 2020 – Aug 2023** | **IGRUS** — Participated in a university IT, software development, and security club. |
+
+## Honors & Awards
+
+- **Dec 2025** — **Preliminary Round Excellence Award**, SoftBank Hackathon 2025 in Korea (advanced to the finals).
+- **Apr 2024** — **Global Top 100**, Google Solution Challenge 2024 (Mingle).
+
+## Education & Qualifications
+
+- **Inha University** — B.S., Computer Science and Engineering (Mar 2020 – Aug 2025)
+- **TOPCIT Level 3** — May 2024
+- **TOEIC 755** — Jun 2025
 
 ---
 
-## � Tech Stack
-
-### Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white) ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-
-### Infrastructure & Cloud
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-
-### Database & Tools
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![ElasticSearch](https://img.shields.io/badge/ElasticSearch-005571?style=flat-square&logo=elasticsearch&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-
----
-
-## 🌟 Featured Projects
-
-### 1️⃣ [Infra-FaaS: Custom Serverless Engine](https://github.com/sangmu1126/FaaS-Platform)
-**Building a High-Performance FaaS Platform from Scratch (on EC2 & Docker)**
-> *"Why accept the Cold Start latency of managed services when you can engineer it away?"*
-
-Designed and implemented a proprietary Serverless Engine to overcome the limitations of AWS Lambda (Cold Start & Monitoring).
-- **Core Engine**: Built a custom orchestrator replacing Kubelet, managing container lifecycles via direct Docker Socket control.
-- **Zero Cold Start**: Engineered a **"Heavy Warm Pool"** architecture, reducing function wakeup time by **95% (sub-100ms)**.
-- **Kernel-Level Tuning**: Developed a **Smart Auto-Tuner** leveraging **Linux Cgroup v2** metrics (memory.peak, cpu.stat) to optimize resource allocation automatically.
-- **Event-Driven Scaling**: Implemented a **SQS Backlog-based** autoscaler using Terraform ASG policies to handle burst traffic reliable.
-
-### 2️⃣ [NewJeanse: AI Energy Management](https://github.com/sangmu1126/NewJeanse)
-**Large-scale Power Data Analysis & AI Model Serving**
-> *Backend Lead & Data Engineer*
-
-- **Pipeline Optimization**: Refactored Airflow ETL workflows, reducing daily data processing time by **60%**.
-- **Real-time Serving**: Wrapped heavy ML models with **FastAPI** for low-latency inference, ensuring high availability for end-users.
-
-### 3️⃣ [EveryTown: Location Search Engine](https://github.com/sangmu1126/EveryTown)
-**Elasticsearch-based GEO Search Platform**
-> *Backend Developer*
-
-- **Search Performance**: Migrated complex RDB queries to **Elasticsearch**, boosting search speed from **2.0s to 0.2s (10x)** using inverted indexes.
-- **DevOps**: Standardized the entire development lifecycle using **Docker Compose**, reducing onboarding time for new team members.
-
-### 4️⃣ [Mingle: Global EdTech Platform](https://github.com/sangmu1126/MingleGDSC)
-**Google Solution Challenge 2024 - Global Top 100**
-> *Backend Architecture & Cloud Deployment*
-
-- **Global Scalability**: Designed a scalable backend usage Firebase & Cloud Functions to support users worldwide.
-- **Recognition**: Selected as a Top 100 project globally, recognized for technical execution and social impact.
+*Measure carefully. Design for failure. Document what the evidence supports.*
