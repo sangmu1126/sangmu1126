@@ -83,6 +83,24 @@ I build backend systems and cloud infrastructure with a focus on **reliability, 
 
 ## 🚀 Featured Projects
 
+### 🦉 [Sova](https://github.com/sangmu1126/sova-test) · Security Governance & Workload Response
+
+**Python · Kubernetes · PostgreSQL · React · Ed25519**
+
+Developed a personal control-plane prototype for security governance and approval-gated workload response, extracting reusable security components for team integration.
+
+- **Validation:** Verified unauthorized **HTTP 403** responses, independent audit correlation, approved source isolation, Green startup and HTTP response, and test-route switching on a dedicated stateless app in **one on-premises Kubernetes cluster**. Cross-cloud migration and production readiness were not established.
+
+<details>
+<summary><strong>Engineering details</strong></summary>
+
+- Bound evidence to exact resource scope, policy revision, and artifact digests; implemented **Ed25519 verification**, independent security holds, and explicit approval gates.
+- Used PostgreSQL operation and effect ledgers to record approved execution, recover committed results without repeating effects, and route uncertain outcomes to recovery review.
+- Extracted the reusable **sova-security** package and built a React workload map that distinguishes observed results, approvals, and unverified states.
+
+</details>
+
+
 ### ⚡ [FaaS Platform](https://github.com/sangmu1126/FaaS-Platform) · Custom Serverless Execution Platform
 
 **AWS · EC2 · SQS · Docker · Redis · Terraform · Linux Cgroup v2**
@@ -99,8 +117,6 @@ Independently redesigned a hackathon project into an AWS-based platform for runn
 - Provisioned the infrastructure with Terraform and Packer, and configured SQS backlog-based Worker Auto Scaling.
 
 </details>
-
-[Documentation](https://github.com/sangmu1126/FaaS-Platform) · [Demo video](https://youtu.be/TyCFOvRkNCc)
 
 
 ### 🔎 [PipeLens](https://github.com/sangmu1126/PipeLens) · Evidence-Based CI Failure Diagnosis
@@ -120,8 +136,6 @@ Developed a GitHub App that correlates failed GitHub Actions logs with code chan
 
 </details>
 
-[Documentation](https://github.com/sangmu1126/PipeLens)
-
 
 ### ☸️ [KubeFit](https://github.com/sangmu1126/Kubefit) · Kubernetes Resource Optimization
 
@@ -139,8 +153,6 @@ Built a tool to analyze Kubernetes workloads, recommend CPU and memory resource 
 - Preserved human approval rather than automatically merging or deploying changes.
 
 </details>
-
-[Documentation](https://github.com/sangmu1126/Kubefit) · [Demo video](https://youtu.be/HQRzH8ce2a4)
 
 
 ---
