@@ -115,6 +115,8 @@
 
 </details>
 
+**個人での継続開発:** [個人リポジトリ](https://github.com/sangmu1126/sova-test)でSovaの再設計と機能拡張を進めています。
+
 
 ### ⚡ [FaaS Platform](https://github.com/sangmu1126/FaaS-Platform) · 独自サーバーレス実行基盤
 

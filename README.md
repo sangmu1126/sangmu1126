@@ -115,6 +115,8 @@ Contributed across the team's cloud-exit platform, reusable security package, in
 
 </details>
 
+**Ongoing personal development:** Redesigning and extending Sova in my [personal repository](https://github.com/sangmu1126/sova-test).
+
 
 ### ⚡ [FaaS Platform](https://github.com/sangmu1126/FaaS-Platform) · Custom Serverless Execution Platform
 

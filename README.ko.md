@@ -115,6 +115,8 @@
 
 </details>
 
+**개인 개발:** [개인 저장소](https://github.com/sangmu1126/sova-test)에서 Sova를 재설계하고 추가 개발을 진행하고 있습니다.
+
 
 ### ⚡ [FaaS Platform](https://github.com/sangmu1126/FaaS-Platform) · 자체 서버리스 실행 플랫폼
 
