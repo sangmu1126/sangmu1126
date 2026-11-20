@@ -16,6 +16,12 @@ Seoul, South Korea
 
 </div>
 
+<p align="center">
+  <a href="./README.md"><strong>ENG</strong></a> &nbsp;|&nbsp;
+  <a href="./README.ko.md">KOR</a> &nbsp;|&nbsp;
+  <a href="./README.ja.md">JPN</a>
+</p>
+
 ## 👋 About Me
 
 I build backend systems and cloud infrastructure with a focus on **reliability, performance, and resource efficiency**. I enjoy tracing problems to their root causes, validating changes through measurements, and documenting engineering decisions.
@@ -119,7 +125,6 @@ Independently redesigned a hackathon project into an AWS-based platform for runn
 </details>
 
 
-
 ### 🔎 [PipeLens](https://github.com/sangmu1126/PipeLens) · Evidence-Based CI Failure Diagnosis
 
 **FastAPI · PostgreSQL · Redis · GitHub App · OpenAI · Prometheus**
@@ -138,7 +143,6 @@ Developed a GitHub App that correlates failed GitHub Actions logs with code chan
 </details>
 
 
-
 ### ☸️ [KubeFit](https://github.com/sangmu1126/Kubefit) · Kubernetes Resource Optimization
 
 **Kubernetes · Prometheus · AWS EKS · Helm · k6 · Python · GitOps**
@@ -155,7 +159,6 @@ Built a tool to analyze Kubernetes workloads, recommend CPU and memory resource 
 - Preserved human approval rather than automatically merging or deploying changes.
 
 </details>
-
 
 
 ---
@@ -180,7 +183,7 @@ Built a tool to analyze Kubernetes workloads, recommend CPU and memory resource 
 | --- | --- |
 | **Oct – Nov 2026** | **SoftBank Hackathon 2026** — Developed an AI-assisted AWS infrastructure provisioning and optimization platform in the preliminary round; contributed to security and observability for an AWS-to-on-premises migration platform in the final round. |
 | **Aug 2026** | **Open Source Developer Contest 2026** — Submitted KubeFit, a Kubernetes resource optimization tool validated on AWS EKS. |
-| **Jun – Jul 2026** | **AX 인재전쟁 2026** — Built an investment-assistance plugin for a KakaoPay Securities challenge. |
+| **Jun – Jul 2026** | **AX Talent War 2026** — Built an investment-assistance plugin for a KakaoPay Securities challenge. |
 | **Nov – Dec 2025** | **SoftBank Hackathon 2025 in Korea** — Developed a web-app deployment platform in the preliminary round and an AWS serverless function execution platform in the final round. |
 | **Sep 2025 – Apr 2026** | **Soldesk** — Completed an AWS-based Cloud DevOps training program. |
 | **Mar – Nov 2024** | **K-Software Empowerment Bootcamp (KEB), Cohort 3** — Completed a university–industry software development training program. |
