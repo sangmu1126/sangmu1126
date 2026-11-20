@@ -1,63 +1,151 @@
-# Sangmu Lee
+<div align="center">
 
-**Backend & Cloud Infrastructure Engineer** · Seoul, South Korea
+<img src="./assets/profile-header.svg" width="100%" alt="Sangmu Lee — Backend &amp; Cloud Infrastructure Engineer" />
+
+<br />
+
+<p>
+  <a href="https://sooming99.notion.site/Sangmu-Lee-13432d2f56c4808197f9c5e951edbca0?pvs=74"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-0F172A?style=for-the-badge&amp;logo=notion&amp;logoColor=white" /></a>
+  <a href="mailto:sangmu1126@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" /></a>
+  <a href="https://github.com/sangmu1126"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" /></a>
+</p>
+
+**Reliability · Performance · Resource Efficiency**
+
+Seoul, South Korea
+
+</div>
+
+## 👋 About Me
 
 I build backend systems and cloud infrastructure with a focus on **reliability, performance, and resource efficiency**. I enjoy tracing problems to their root causes, validating changes through measurements, and documenting engineering decisions.
 
-[**Portfolio**](https://sooming99.notion.site/Sangmu-Lee-13432d2f56c4808197f9c5e951edbca0?pvs=74) · [**Email**](mailto:sangmu1126@gmail.com) · [**GitHub**](https://github.com/sangmu1126)
+---
 
-## Technical Skills
+## 🛠️ Tech Stack
 
-| Area | Technologies |
-| --- | --- |
-| **Cloud & Infrastructure** | AWS, Kubernetes, Docker, Terraform, Helm, Packer, Linux |
-| **Backend** | Python, Java, Node.js, FastAPI, Express.js, Spring Boot |
-| **DevOps & Observability** | GitHub Actions, Prometheus, Grafana, k6 |
-| **Databases & Messaging** | PostgreSQL, MySQL, MongoDB, Redis, Amazon SQS |
-| **Frontend & Mobile** | HTML5, CSS3, JavaScript, TypeScript, React, Next.js, Flutter, Android |
+**Cloud & Infrastructure**
 
-## Featured Projects
+<p>
+  <img alt="AWS" src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&amp;logo=amazonwebservices&amp;logoColor=white" />
+  <img alt="Kubernetes" src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&amp;logo=kubernetes&amp;logoColor=white" />
+  <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&amp;logo=docker&amp;logoColor=white" />
+  <img alt="Terraform" src="https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&amp;logo=terraform&amp;logoColor=white" />
+  <img alt="Helm" src="https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&amp;logo=helm&amp;logoColor=white" />
+  <img alt="Packer" src="https://img.shields.io/badge/Packer-02A8EF?style=for-the-badge&amp;logo=packer&amp;logoColor=white" />
+  <img alt="Linux" src="https://img.shields.io/badge/Linux-333333?style=for-the-badge&amp;logo=linux&amp;logoColor=white" />
+</p>
 
-### [FaaS Platform](https://github.com/sangmu1126/FaaS-Platform) · Custom Serverless Execution Platform
+**Backend**
+
+<p>
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white" />
+  <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&amp;logo=openjdk&amp;logoColor=white" />
+  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&amp;logo=nodedotjs&amp;logoColor=white" />
+  <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&amp;logo=fastapi&amp;logoColor=white" />
+  <img alt="Express.js" src="https://img.shields.io/badge/Express.js-333333?style=for-the-badge&amp;logo=express&amp;logoColor=white" />
+  <img alt="Spring Boot" src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&amp;logo=springboot&amp;logoColor=white" />
+</p>
+
+**DevOps & Observability**
+
+<p>
+  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&amp;logo=githubactions&amp;logoColor=white" />
+  <img alt="Prometheus" src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&amp;logo=prometheus&amp;logoColor=white" />
+  <img alt="Grafana" src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&amp;logo=grafana&amp;logoColor=white" />
+  <img alt="k6" src="https://img.shields.io/badge/k6-7D64FF?style=for-the-badge&amp;logo=k6&amp;logoColor=white" />
+</p>
+
+**Databases & Messaging**
+
+<p>
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&amp;logo=postgresql&amp;logoColor=white" />
+  <img alt="MySQL" src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&amp;logo=mysql&amp;logoColor=white" />
+  <img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&amp;logo=mongodb&amp;logoColor=white" />
+  <img alt="Redis" src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&amp;logo=redis&amp;logoColor=white" />
+  <img alt="Amazon SQS" src="https://img.shields.io/badge/Amazon_SQS-FF4F8B?style=for-the-badge&amp;logo=amazonsqs&amp;logoColor=white" />
+</p>
+
+**Frontend & Mobile**
+
+<p>
+  <img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&amp;logo=html5&amp;logoColor=white" />
+  <img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&amp;logo=css&amp;logoColor=white" />
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-9F8300?style=for-the-badge&amp;logo=javascript&amp;logoColor=white" />
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&amp;logo=typescript&amp;logoColor=white" />
+  <img alt="React" src="https://img.shields.io/badge/React-167D9A?style=for-the-badge&amp;logo=react&amp;logoColor=white" />
+  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-333333?style=for-the-badge&amp;logo=nextdotjs&amp;logoColor=white" />
+  <img alt="Flutter" src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&amp;logo=flutter&amp;logoColor=white" />
+  <img alt="Android" src="https://img.shields.io/badge/Android-287F46?style=for-the-badge&amp;logo=android&amp;logoColor=white" />
+</p>
+
+---
+
+## 🚀 Featured Projects
+
+### ⚡ [FaaS Platform](https://github.com/sangmu1126/FaaS-Platform) · Custom Serverless Execution Platform
 
 **AWS · EC2 · SQS · Docker · Redis · Terraform · Linux Cgroup v2**
 
 Independently redesigned a hackathon project into an AWS-based platform for running user-uploaded functions inside Docker containers.
 
+- **Validation:** Completed **181/181 synchronous function invocations** at 3 offered RPS over 60 seconds on one `t3.micro` Worker. Separately measured **445.57 accepted requests/s** on the Controller's private HTTP path; this is request admission, not function completion throughput.
+
+<details>
+<summary><strong>Engineering details</strong></summary>
+
 - Separated request handling from function execution with **Controller → SQS → Worker**, using Redis Pub/Sub for synchronous responses.
 - Built reusable container warm pools and safeguards for process cleanup, execution-slot management, and user-code isolation.
 - Provisioned the infrastructure with Terraform and Packer, and configured SQS backlog-based Worker Auto Scaling.
-- **Validation:** Completed **181/181 synchronous function invocations** at 3 offered RPS over 60 seconds on one `t3.micro` Worker. Separately measured **445.57 accepted requests/s** on the Controller's private HTTP path; this is request admission, not function completion throughput.
+
+</details>
 
 [Documentation](https://github.com/sangmu1126/FaaS-Platform) · [Demo video](https://youtu.be/TyCFOvRkNCc)
 
-### [PipeLens](https://github.com/sangmu1126/PipeLens) · Evidence-Based CI Failure Diagnosis
+
+### 🔎 [PipeLens](https://github.com/sangmu1126/PipeLens) · Evidence-Based CI Failure Diagnosis
 
 **FastAPI · PostgreSQL · Redis · GitHub App · OpenAI · Prometheus**
 
 Developed a GitHub App that correlates failed GitHub Actions logs with code changes and workflow configuration to suggest verifiable diagnoses.
 
+- **Validation:** Completed **3,605 jobs in a one-hour, four-worker synthetic soak test** on a single Docker host, with zero lost jobs or duplicate completions.
+
+<details>
+<summary><strong>Engineering details</strong></summary>
+
 - Combined rule-based analysis with optional LLM diagnosis; checked evidence citations and file-level suggestions before publishing results.
 - Implemented webhook verification, untrusted-fork isolation, sensitive-data redaction, and idempotent GitHub reporting.
 - Designed failure recovery using Redis worker leases, heartbeats, **fencing tokens**, and database/queue reconciliation.
-- **Validation:** Completed **3,605 jobs in a one-hour, four-worker synthetic soak test** on a single Docker host, with zero lost jobs or duplicate completions.
+
+</details>
 
 [Documentation](https://github.com/sangmu1126/PipeLens)
 
-### [KubeFit](https://github.com/sangmu1126/Kubefit) · Kubernetes Resource Optimization
+
+### ☸️ [KubeFit](https://github.com/sangmu1126/Kubefit) · Kubernetes Resource Optimization
 
 **Kubernetes · Prometheus · AWS EKS · Helm · k6 · Python · GitOps**
 
 Built a tool to analyze Kubernetes workloads, recommend CPU and memory resource settings, validate changes, and open GitHub Draft PRs for human review.
 
+- **Validation:** Completed a **60-minute EKS pilot (100,503 requests; zero HTTP errors)** for metric collection and read-only recommendation. Actual AWS cost savings were **not** demonstrated.
+
+<details>
+<summary><strong>Engineering details</strong></summary>
+
 - Correlated Deployment and Pod identities with metrics; derived recommendations from **CPU P95** and **memory P99** with safety margins.
 - Compared baseline and candidate settings under fixed load and added CPU-throttling evidence to prevent misleading performance-only PASS decisions.
 - Preserved human approval rather than automatically merging or deploying changes.
-- **Validation:** Completed a **60-minute EKS pilot (100,503 requests; zero HTTP errors)** for metric collection and read-only recommendation. Actual AWS cost savings were **not** demonstrated.
+
+</details>
 
 [Documentation](https://github.com/sangmu1126/Kubefit) · [Demo video](https://youtu.be/HQRzH8ce2a4)
 
-## Other Projects
+
+---
+
+## 🧩 Other Projects
 
 | Project | Highlights |
 | --- | --- |
@@ -65,7 +153,9 @@ Built a tool to analyze Kubernetes workloads, recommend CPU and memory resource 
 | [Mingle](https://github.com/sangmu1126/MingleGDSC) | Flutter and Firebase educational application; selected for the **Google Solution Challenge 2024 Global Top 100**. |
 | [ElectricKo! / NewJeanse](https://github.com/sangmu1126/NewJeanse) | Led a five-member AI energy management project; worked on predictive modeling and backend APIs. |
 
-## Experience & Activities
+---
+
+## 💼 Experience & Activities
 
 | Period | Activity |
 | --- | --- |
@@ -79,17 +169,26 @@ Built a tool to analyze Kubernetes workloads, recommend CPU and memory resource 
 | **Sep 2021 – Aug 2025** | **Kaiwa, university Japanese language & culture club** — Served as Vice President in the first semester of 2022 and President in the second semester. |
 | **Sep 2020 – Aug 2023** | **IGRUS** — Participated in a university IT, software development, and security club. |
 
-## Honors & Awards
+---
+
+## 🏆 Honors & Awards
 
 - **Dec 2025** — **Preliminary Round Excellence Award**, SoftBank Hackathon 2025 in Korea (advanced to the finals).
 - **Apr 2024** — **Global Top 100**, Google Solution Challenge 2024 (Mingle).
 
-## Education & Qualifications
+---
+
+## 🎓 Education & Qualifications
 
 - **Inha University** — B.S., Computer Science and Engineering (Mar 2020 – Aug 2025)
 - **TOPCIT Level 3** — May 2024
-- **TOEIC 755** — Jun 2025
 
 ---
 
-*Measure carefully. Design for failure. Document what the evidence supports.*
+<div align="center">
+
+**Measure carefully. Design for failure.**  
+*Document what the evidence supports.*
+
+</div>
+

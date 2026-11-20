@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Sangmu Lee</title>
+  <desc id="desc">Backend and Cloud Infrastructure Engineer. Reliability, performance, and resource efficiency.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b1224"/><stop offset="1" stop-color="#172b4d"/></linearGradient>
+    <linearGradient id="accent" x1="0" x2="1"><stop stop-color="#38bdf8"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M 44 0 L 0 0 0 44" fill="none" stroke="#cbd5e1" stroke-opacity=".06"/></pattern>
+  </defs>
+  <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="24" fill="url(#grid)"/>
+  <circle cx="1100" cy="20" r="175" fill="#38bdf8" opacity=".05"/>
+  <circle cx="1040" cy="250" r="130" fill="#a78bfa" opacity=".05"/>
+  <rect x="60" y="56" width="48" height="5" rx="2.5" fill="url(#accent)"/>
+  <text x="60" y="128" fill="#f8fafc" font-family="Segoe UI,Arial,sans-serif" font-size="56" font-weight="700" letter-spacing="-1">Sangmu Lee</text>
+  <text x="63" y="173" fill="#cbd5e1" font-family="Segoe UI,Arial,sans-serif" font-size="25">Backend &amp; Cloud Infrastructure Engineer</text>
+  <text x="63" y="230" fill="#7dd3fc" font-family="Segoe UI,Arial,sans-serif" font-size="15" letter-spacing="2">BUILD · MEASURE · IMPROVE</text>
+  <g fill="none" stroke-width="2" stroke-linecap="round">
+    <rect x="886" y="83" width="190" height="134" rx="14" stroke="#64748b" opacity=".65"/>
+    <path d="M910 111h142" stroke="#64748b" opacity=".5"/>
+    <path d="m920 141 17 13-17 13m32 2h33" stroke="#7dd3fc"/>
+    <path d="M880 233h201" stroke="#64748b" opacity=".45"/>
+    <circle cx="1028" cy="154" r="5" fill="#a78bfa" stroke="none"/>
+  </g>
+</svg>
+
