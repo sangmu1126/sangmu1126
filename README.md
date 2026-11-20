@@ -207,7 +207,7 @@ Built a tool to analyze Kubernetes workloads, recommend CPU and memory resource 
 
 ## 🏆 Honors & Awards
 
-- **Dec 2025** — **Preliminary Round Excellence Award**, SoftBank Hackathon 2025 in Korea (advanced to the finals).
+- **Nov 2025** — **Preliminary Round Excellence Award**, SoftBank Hackathon 2025 in Korea (advanced to the finals).
 - **Apr 2024** — **Global Top 100**, Google Solution Challenge 2024 (Mingle).
 
 ---

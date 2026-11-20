@@ -207,7 +207,7 @@ Kubernetes 워크로드를 분석하고 CPU·메모리 설정을 제안하며, �
 
 ## 🏆 수상
 
-- **2025.12** — **SoftBank Hackathon 2025 in Korea 예선 우수상**, 본선 진출.
+- **2025.11** — **SoftBank Hackathon 2025 in Korea 예선 우수상**, 본선 진출.
 - **2024.04** — **Google Solution Challenge 2024 Global Top 100** 선정(Mingle).
 
 ---
