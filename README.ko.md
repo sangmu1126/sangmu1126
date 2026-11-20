@@ -57,6 +57,7 @@
 
 <p>
   <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&amp;logo=githubactions&amp;logoColor=white" />
+  <img alt="OpenTelemetry" src="https://img.shields.io/badge/OpenTelemetry-000000?style=for-the-badge&amp;logo=opentelemetry&amp;logoColor=white" />
   <img alt="Prometheus" src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&amp;logo=prometheus&amp;logoColor=white" />
   <img alt="Grafana" src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&amp;logo=grafana&amp;logoColor=white" />
   <img alt="k6" src="https://img.shields.io/badge/k6-7D64FF?style=for-the-badge&amp;logo=k6&amp;logoColor=white" />
@@ -91,7 +92,7 @@
 
 ### [Sova](https://github.com/orgs/Softbank-Hackathon-Finals/repositories) · 클라우드 출구전략·보안 거버넌스
 
-**Python · Kubernetes · PostgreSQL · React · Ed25519**
+**Python · Kubernetes · PostgreSQL · React · OpenTelemetry · Ed25519**
 
 팀의 클라우드 출구전략 플랫폼·공통 보안 패키지·독립 통합 시험 환경·이전 데모 앱에 걸쳐 보안 거버넌스, 목적지 IaC, 관측, 백업·복원, 감사 로그 수집과 웹 운영 도구를 개발했습니다.
 
@@ -111,7 +112,7 @@
 | [platform](https://github.com/Softbank-Hackathon-Finals/platform) | 보안·인프라·운영 | 보안 아키텍처, 통제·readiness 게이트, 취약점·탐지 통합, Security Review, 출발지·목적지 감사 로그 수집을 설계·구현했습니다. 목적지 IaC API·GitOps(**T44**, **T45** 최초 구축 담당자와 연계), SHIFT/WATCH 계약·OpenTelemetry 수집(**T36/T37**), CNPG 백업·복원(**T35**), 웹 운영 콘솔(**T21**)을 담당했습니다. 병합 자동화(**T40/T41**, 이후 사용 종료)에도 기여했습니다. |
 | [sova-test](https://github.com/Softbank-Hackathon-Finals/sova-test) | 독립 프로토타입·통합 시험 환경 | 제어면 프로토타입, React 워크로드 지도·실시간 명령 콘솔, 작업·효과 원장, 승인 기반 격리·복구 흐름을 구현했습니다. 로컬 RKE2·EKS→RKE2 시험 실행기, 장애 주입, 서명 근거, 감사 증거 보존을 개발했습니다. 팀 제품과 구분되는 독립 검증 환경입니다. |
 | [security](https://github.com/Softbank-Hackathon-Finals/security) | 공통 보안 패키지·판정 서비스 | **sova-security**를 분리하고, 보호 수준 비교, 입력·근거 서명 검증, 보안 보류·별도 승인 해제, OPA/Prowler/Trivy 연동, 테넌트 범위 PostgreSQL 어댑터, 선택형 Security Review 서비스와 플랫폼 소비 계약을 구현했습니다. |
-| [demo-app](https://github.com/Softbank-Hackathon-Finals/demo-app) | 이전 대상 워크로드·참여자 UI | **T4/T22** 데모 채팅 앱의 FastAPI HTTP/WebSocket API, PostgreSQL 멱등 처리, S3 첨부, 컷오버 쓰기 차단, OpenTelemetry 계측을 구현했습니다. 모바일 메신저·모의 지갑/포인트 송금, 재접속·재시도, 실제 PostgreSQL을 사용하는 브라우저 회귀 시험을 개발했습니다. 지갑 송금은 실제 결제가 아닌 시뮬레이션입니다. |
+| [demo-app](https://github.com/Softbank-Hackathon-Finals/demo-app) | 이전 대상 워크로드·참여자 UI | **T4/T22** 데모 채팅 앱의 FastAPI HTTP/WebSocket API, PostgreSQL 멱등 처리, S3 첨부, 컷오버 쓰기 차단, OpenTelemetry HTTP 지연 히스토그램·OTLP 전송을 구현했습니다. 모바일 메신저·모의 지갑/포인트 송금, 재접속·재시도, 실제 PostgreSQL을 사용하는 브라우저 회귀 시험을 개발했습니다. 지갑 송금은 실제 결제가 아닌 시뮬레이션입니다. |
 
 </details>
 

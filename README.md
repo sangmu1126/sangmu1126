@@ -57,6 +57,7 @@ I build backend systems and cloud infrastructure with a focus on **reliability, 
 
 <p>
   <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&amp;logo=githubactions&amp;logoColor=white" />
+  <img alt="OpenTelemetry" src="https://img.shields.io/badge/OpenTelemetry-000000?style=for-the-badge&amp;logo=opentelemetry&amp;logoColor=white" />
   <img alt="Prometheus" src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&amp;logo=prometheus&amp;logoColor=white" />
   <img alt="Grafana" src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&amp;logo=grafana&amp;logoColor=white" />
   <img alt="k6" src="https://img.shields.io/badge/k6-7D64FF?style=for-the-badge&amp;logo=k6&amp;logoColor=white" />
@@ -91,7 +92,7 @@ I build backend systems and cloud infrastructure with a focus on **reliability, 
 
 ### [Sova](https://github.com/orgs/Softbank-Hackathon-Finals/repositories) · Cloud Exit Platform & Security Governance
 
-**Python · Kubernetes · PostgreSQL · React · Ed25519**
+**Python · Kubernetes · PostgreSQL · React · OpenTelemetry · Ed25519**
 
 Contributed across the team's cloud-exit platform, reusable security package, independent integration testbed, and migration demo workload, covering security governance, destination IaC, observability, backup/restore, audit collection, and web operations tooling.
 
@@ -111,7 +112,7 @@ Contributed across the team's cloud-exit platform, reusable security package, in
 | [platform](https://github.com/Softbank-Hackathon-Finals/platform) | Security, infrastructure & operations | Security architecture, control/readiness gates, vulnerability and detection integration, Security Review, and source/target audit collection. Destination IaC APIs and GitOps (**T44**, coordinated with the **T45** bootstrap owner); SHIFT/WATCH contracts and OpenTelemetry collection (**T36/T37**); CNPG backup/restore (**T35**); the web operations console (**T21**). Contributed merge automation (**T40/T41**, subsequently retired). |
 | [sova-test](https://github.com/Softbank-Hackathon-Finals/sova-test) | Independent prototype & integration testbed | Built the control-plane prototype, React workload map and live command console, operation/effect ledgers, and approval-gated containment and recovery flows. Implemented local RKE2 and EKS-to-RKE2 test runners, fault injection, signed evidence, and audit evidence retention. This is an independent qualification environment, separate from the team's product. |
 | [security](https://github.com/Softbank-Hackathon-Finals/security) | Reusable security package & review service | Extracted **sova-security**; implemented protection-parity checks, signed input/evidence verification, security holds and separately approved releases, OPA/Prowler/Trivy integrations, tenant-scoped PostgreSQL adapters, and the optional Security Review service and platform-consumer contracts. |
-| [demo-app](https://github.com/Softbank-Hackathon-Finals/demo-app) | Migration workload & participant UI | Built the **T4/T22** demo chat workload: FastAPI HTTP/WebSocket APIs, PostgreSQL idempotency, S3 attachments, cutover write blocking, and OpenTelemetry instrumentation. Developed the mobile messenger, simulated wallet/point transfers, reconnect/retry handling, and PostgreSQL-backed browser regression tests. Wallet transfers are simulated, not real payments. |
+| [demo-app](https://github.com/Softbank-Hackathon-Finals/demo-app) | Migration workload & participant UI | Built the **T4/T22** demo chat workload: FastAPI HTTP/WebSocket APIs, PostgreSQL idempotency, S3 attachments, cutover write blocking, and OpenTelemetry HTTP latency histograms with OTLP export. Developed the mobile messenger, simulated wallet/point transfers, reconnect/retry handling, and PostgreSQL-backed browser regression tests. Wallet transfers are simulated, not real payments. |
 
 </details>
 

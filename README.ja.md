@@ -57,6 +57,7 @@
 
 <p>
   <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&amp;logo=githubactions&amp;logoColor=white" />
+  <img alt="OpenTelemetry" src="https://img.shields.io/badge/OpenTelemetry-000000?style=for-the-badge&amp;logo=opentelemetry&amp;logoColor=white" />
   <img alt="Prometheus" src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&amp;logo=prometheus&amp;logoColor=white" />
   <img alt="Grafana" src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&amp;logo=grafana&amp;logoColor=white" />
   <img alt="k6" src="https://img.shields.io/badge/k6-7D64FF?style=for-the-badge&amp;logo=k6&amp;logoColor=white" />
@@ -91,7 +92,7 @@
 
 ### [Sova](https://github.com/orgs/Softbank-Hackathon-Finals/repositories) · クラウド出口戦略・セキュリティガバナンス
 
-**Python · Kubernetes · PostgreSQL · React · Ed25519**
+**Python · Kubernetes · PostgreSQL · React · OpenTelemetry · Ed25519**
 
 チームのクラウド出口戦略基盤・共通セキュリティパッケージ・独立した統合試験環境・移行デモアプリにわたり、セキュリティガバナンス、移行先IaC、オブザーバビリティ、バックアップ・復元、監査ログ収集、Web運用ツールを開発しました。
 
@@ -111,7 +112,7 @@
 | [platform](https://github.com/Softbank-Hackathon-Finals/platform) | セキュリティ・インフラ・運用 | セキュリティアーキテクチャ、統制・readinessゲート、脆弱性・検知統合、Security Review、移行元・移行先の監査ログ収集を設計・実装しました。移行先IaC API・GitOps（**T44**、初期構築の**T45**担当者と連携）、SHIFT/WATCH契約・OpenTelemetry収集（**T36/T37**）、CNPGバックアップ・復元（**T35**）、Web運用コンソール（**T21**）を担当し、マージ自動化（**T40/T41**、後に運用終了）にも貢献しました。 |
 | [sova-test](https://github.com/Softbank-Hackathon-Finals/sova-test) | 独立プロトタイプ・統合試験環境 | 制御プレーンのプロトタイプ、Reactワークロードマップ・ライブコマンドコンソール、操作・実行効果台帳、承認に基づく隔離・復旧フローを実装しました。ローカルRKE2・EKS→RKE2の試験実行系、障害注入、署名付き根拠、監査証跡の保管も開発しました。チームの製品とは別の独立した検証環境です。 |
 | [security](https://github.com/Softbank-Hackathon-Finals/security) | 共通セキュリティパッケージ・判定サービス | **sova-security**を切り出し、保護水準の比較、入力・根拠の署名検証、セキュリティ保留と別途承認による解除、OPA/Prowler/Trivy連携、テナント範囲に限定したPostgreSQLアダプター、任意のSecurity Reviewサービスとプラットフォーム側の利用契約を実装しました。 |
-| [demo-app](https://github.com/Softbank-Hackathon-Finals/demo-app) | 移行対象ワークロード・参加者UI | **T4/T22**デモチャットのFastAPI HTTP/WebSocket API、PostgreSQLの冪等処理、S3添付、カットオーバー時の書き込み停止、OpenTelemetry計装を実装しました。モバイルメッセンジャー・模擬ウォレット/ポイント送金、再接続・再試行、実際のPostgreSQLを使うブラウザー回帰試験を開発しました。送金はシミュレーションであり、実際の決済ではありません。 |
+| [demo-app](https://github.com/Softbank-Hackathon-Finals/demo-app) | 移行対象ワークロード・参加者UI | **T4/T22**デモチャットのFastAPI HTTP/WebSocket API、PostgreSQLの冪等処理、S3添付、カットオーバー時の書き込み停止、OpenTelemetryによるHTTP遅延ヒストグラム・OTLP送信を実装しました。モバイルメッセンジャー・模擬ウォレット/ポイント送金、再接続・再試行、実際のPostgreSQLを使うブラウザー回帰試験を開発しました。送金はシミュレーションであり、実際の決済ではありません。 |
 
 </details>
 
