@@ -89,13 +89,13 @@ I build backend systems and cloud infrastructure with a focus on **reliability, 
 
 ## 🚀 Featured Projects
 
-### 🦉 [Sova](https://github.com/sangmu1126/sova-test) · Security Governance & Workload Response
+### 🦉 [Sova](https://github.com/orgs/Softbank-Hackathon-Finals/repositories) · Cloud Exit Platform & Security Governance
 
 **Python · Kubernetes · PostgreSQL · React · Ed25519**
 
-Developed a personal control-plane prototype for security governance and approval-gated workload response, extracting reusable security components for team integration.
+Contributed across the team's cloud-exit platform, reusable security package, independent integration testbed, and migration demo workload, covering security governance, destination IaC, observability, backup/restore, audit collection, and web operations tooling.
 
-- **Validation:** Verified unauthorized **HTTP 403** responses, independent audit correlation, approved source isolation, Green startup and HTTP response, and test-route switching on a dedicated stateless app in **one on-premises Kubernetes cluster**. Cross-cloud migration and production readiness were not established.
+- **Validation:** Verified unauthorized **HTTP 403** responses, independent audit correlation, approved source isolation, Green startup and HTTP response, and test-route switching on a dedicated stateless app in **one on-premises Kubernetes cluster**. This test did not establish team-wide end-to-end migration or production readiness.
 
 <details>
 <summary><strong>Engineering details</strong></summary>
@@ -103,6 +103,15 @@ Developed a personal control-plane prototype for security governance and approva
 - Bound evidence to exact resource scope, policy revision, and artifact digests; implemented **Ed25519 verification**, independent security holds, and explicit approval gates.
 - Used PostgreSQL operation and effect ledgers to record approved execution, recover committed results without repeating effects, and route uncertain outcomes to recovery review.
 - Extracted the reusable **sova-security** package and built a React workload map that distinguishes observed results, approvals, and unverified states.
+
+**My contributions by repository**
+
+| Repository | Role | Contribution |
+| --- | --- | --- |
+| [platform](https://github.com/Softbank-Hackathon-Finals/platform) | Security, infrastructure & operations | Security architecture, control/readiness gates, vulnerability and detection integration, Security Review, and source/target audit collection. Destination IaC APIs and GitOps (**T44**, coordinated with the **T45** bootstrap owner); SHIFT/WATCH contracts and OpenTelemetry collection (**T36/T37**); CNPG backup/restore (**T35**); the web operations console (**T21**). Contributed merge automation (**T40/T41**, subsequently retired). |
+| [sova-test](https://github.com/Softbank-Hackathon-Finals/sova-test) | Independent prototype & integration testbed | Built the control-plane prototype, React workload map and live command console, operation/effect ledgers, and approval-gated containment and recovery flows. Implemented local RKE2 and EKS-to-RKE2 test runners, fault injection, signed evidence, and audit evidence retention. This is an independent qualification environment, separate from the team's product. |
+| [security](https://github.com/Softbank-Hackathon-Finals/security) | Reusable security package & review service | Extracted **sova-security**; implemented protection-parity checks, signed input/evidence verification, security holds and separately approved releases, OPA/Prowler/Trivy integrations, tenant-scoped PostgreSQL adapters, and the optional Security Review service and platform-consumer contracts. |
+| [demo-app](https://github.com/Softbank-Hackathon-Finals/demo-app) | Migration workload & participant UI | Built the **T4/T22** demo chat workload: FastAPI HTTP/WebSocket APIs, PostgreSQL idempotency, S3 attachments, cutover write blocking, and OpenTelemetry instrumentation. Developed the mobile messenger, simulated wallet/point transfers, reconnect/retry handling, and PostgreSQL-backed browser regression tests. Wallet transfers are simulated, not real payments. |
 
 </details>
 
