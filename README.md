@@ -95,7 +95,7 @@ I build backend systems and cloud infrastructure with a focus on **reliability, 
 
 Contributed across the team's cloud-exit platform, reusable security package, independent integration testbed, and migration demo workload, covering security governance, destination IaC, observability, backup/restore, audit collection, and web operations tooling.
 
-- **Validation:** Verified unauthorized **HTTP 403** responses, independent audit correlation, approved source isolation, Green startup and HTTP response, and test-route switching on a dedicated stateless app in **one on-premises Kubernetes cluster**. This test did not establish team-wide end-to-end migration or production readiness.
+- **Results:** Validated **HTTP 403 enforcement → independent audit correlation → approved source isolation → Green startup and HTTP response → test-route switching** using a dedicated stateless app in a single on-premises Kubernetes cluster.
 
 <details>
 <summary><strong>Engineering details</strong></summary>
@@ -122,7 +122,7 @@ Contributed across the team's cloud-exit platform, reusable security package, in
 
 Independently redesigned a hackathon project into an AWS-based platform for running user-uploaded functions inside Docker containers.
 
-- **Validation:** Completed **181/181 synchronous function invocations** at 3 offered RPS over 60 seconds on one `t3.micro` Worker. Separately measured **445.57 accepted requests/s** on the Controller's private HTTP path; this is request admission, not function completion throughput.
+- **Results:** Completed **181/181 synchronous function invocations** at 3 offered RPS over 60 seconds on one `t3.micro` Worker. A separate Controller request-admission test measured **445.57 accepted requests/s** on its private HTTP path.
 
 <details>
 <summary><strong>Engineering details</strong></summary>
@@ -140,7 +140,7 @@ Independently redesigned a hackathon project into an AWS-based platform for runn
 
 Developed a GitHub App that correlates failed GitHub Actions logs with code changes and workflow configuration to suggest verifiable diagnoses.
 
-- **Validation:** Completed **3,605 jobs in a one-hour, four-worker synthetic soak test** on a single Docker host, with zero lost jobs or duplicate completions.
+- **Results:** Completed **3,605 jobs** with **zero lost jobs or duplicate completions** in a one-hour, four-worker synthetic soak test on a single Docker host.
 
 <details>
 <summary><strong>Engineering details</strong></summary>
@@ -158,7 +158,7 @@ Developed a GitHub App that correlates failed GitHub Actions logs with code chan
 
 Built a tool to analyze Kubernetes workloads, recommend CPU and memory resource settings, validate changes, and open GitHub Draft PRs for human review.
 
-- **Validation:** Completed a **60-minute EKS pilot (100,503 requests; zero HTTP errors)** for metric collection and read-only recommendation. Actual AWS cost savings were **not** demonstrated.
+- **Results:** Validated metric collection and read-only resource recommendations in a **60-minute EKS pilot covering 100,503 requests with zero HTTP errors**.
 
 <details>
 <summary><strong>Engineering details</strong></summary>
