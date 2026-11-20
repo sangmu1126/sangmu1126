@@ -119,6 +119,7 @@ Independently redesigned a hackathon project into an AWS-based platform for runn
 </details>
 
 
+
 ### 🔎 [PipeLens](https://github.com/sangmu1126/PipeLens) · Evidence-Based CI Failure Diagnosis
 
 **FastAPI · PostgreSQL · Redis · GitHub App · OpenAI · Prometheus**
@@ -135,6 +136,7 @@ Developed a GitHub App that correlates failed GitHub Actions logs with code chan
 - Designed failure recovery using Redis worker leases, heartbeats, **fencing tokens**, and database/queue reconciliation.
 
 </details>
+
 
 
 ### ☸️ [KubeFit](https://github.com/sangmu1126/Kubefit) · Kubernetes Resource Optimization
@@ -155,15 +157,20 @@ Built a tool to analyze Kubernetes workloads, recommend CPU and memory resource 
 </details>
 
 
+
 ---
 
 ## 🧩 Other Projects
 
 | Project | Highlights |
 | --- | --- |
+| [Sky](https://github.com/sangmu1126/sky-platform) | Application analysis, deployment planning, and HTTP verification across supported Docker, Linux VM, and AWS targets, with update and rollback workflows. Core paths have live deployment records; the full hosted automation loop remains under development. |
+| [Safe Trade Plugin](https://github.com/sangmu1126/stock-helper-ai-plugin) | Codex plugin for market-hours and margin-rule checks, boundary-test generation, and local price alerts. **372 tests passed locally**, with 4 JUnit-dependent tests skipped; public-source checks use pinned commits and SHA-256 verification. |
+| [Deplight](https://github.com/sangmu1126/Deplight) | ECS Fargate deployment platform using GitHub Actions and Terraform. Documented live application deployment and recovery, ALB routing fixes, per-app state isolation, and guards against shared IAM role deletion. |
 | [EveryTown](https://github.com/sangmu1126/EveryTown) | Spring Boot and Elasticsearch location-based search platform. Reduced query latency from approximately **2 s to 200 ms** in historical local measurements. |
 | [Mingle](https://github.com/sangmu1126/MingleGDSC) | Flutter and Firebase educational application; selected for the **Google Solution Challenge 2024 Global Top 100**. |
 | [ElectricKo! / NewJeanse](https://github.com/sangmu1126/NewJeanse) | Led a five-member AI energy management project; worked on predictive modeling and backend APIs. |
+| [PacketRoute](https://github.com/sangmu1126/PacketRoute) | Cisco Packet Tracer network simulation covering OSPF/EIGRP redistribution, HSRP gateway failover, VLAN segmentation, and ACL-based access control. |
 
 ---
 
