@@ -89,7 +89,7 @@ I build backend systems and cloud infrastructure with a focus on **reliability, 
 
 ## 🚀 Featured Projects
 
-### 🦉 [Sova](https://github.com/orgs/Softbank-Hackathon-Finals/repositories) · Cloud Exit Platform & Security Governance
+### [Sova](https://github.com/orgs/Softbank-Hackathon-Finals/repositories) · Cloud Exit Platform & Security Governance
 
 **Python · Kubernetes · PostgreSQL · React · Ed25519**
 
@@ -118,7 +118,7 @@ Contributed across the team's cloud-exit platform, reusable security package, in
 **Ongoing personal development:** Redesigning and extending Sova in my [personal repository](https://github.com/sangmu1126/sova-test).
 
 
-### ⚡ [FaaS Platform](https://github.com/sangmu1126/FaaS-Platform) · Custom Serverless Execution Platform
+### [FaaS Platform](https://github.com/sangmu1126/FaaS-Platform) · Custom Serverless Execution Platform
 
 **AWS · EC2 · SQS · Docker · Redis · Terraform · Linux Cgroup v2**
 
@@ -136,7 +136,7 @@ Independently redesigned a hackathon project into an AWS-based platform for runn
 </details>
 
 
-### 🔎 [PipeLens](https://github.com/sangmu1126/PipeLens) · Evidence-Based CI Failure Diagnosis
+### [PipeLens](https://github.com/sangmu1126/PipeLens) · Evidence-Based CI Failure Diagnosis
 
 **FastAPI · PostgreSQL · Redis · GitHub App · OpenAI · Prometheus**
 
@@ -154,7 +154,7 @@ Developed a GitHub App that correlates failed GitHub Actions logs with code chan
 </details>
 
 
-### ☸️ [KubeFit](https://github.com/sangmu1126/Kubefit) · Kubernetes Resource Optimization
+### [KubeFit](https://github.com/sangmu1126/Kubefit) · Kubernetes Resource Optimization
 
 **Kubernetes · Prometheus · AWS EKS · Helm · k6 · Python · GitOps**
 

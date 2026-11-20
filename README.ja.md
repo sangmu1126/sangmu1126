@@ -89,7 +89,7 @@
 
 ## 🚀 主要プロジェクト
 
-### 🦉 [Sova](https://github.com/orgs/Softbank-Hackathon-Finals/repositories) · クラウド出口戦略・セキュリティガバナンス
+### [Sova](https://github.com/orgs/Softbank-Hackathon-Finals/repositories) · クラウド出口戦略・セキュリティガバナンス
 
 **Python · Kubernetes · PostgreSQL · React · Ed25519**
 
@@ -118,7 +118,7 @@
 **個人での継続開発:** [個人リポジトリ](https://github.com/sangmu1126/sova-test)でSovaの再設計と機能拡張を進めています。
 
 
-### ⚡ [FaaS Platform](https://github.com/sangmu1126/FaaS-Platform) · 独自サーバーレス実行基盤
+### [FaaS Platform](https://github.com/sangmu1126/FaaS-Platform) · 独自サーバーレス実行基盤
 
 **AWS · EC2 · SQS · Docker · Redis · Terraform · Linux Cgroup v2**
 
@@ -136,7 +136,7 @@
 </details>
 
 
-### 🔎 [PipeLens](https://github.com/sangmu1126/PipeLens) · 根拠に基づくCI障害診断
+### [PipeLens](https://github.com/sangmu1126/PipeLens) · 根拠に基づくCI障害診断
 
 **FastAPI · PostgreSQL · Redis · GitHub App · OpenAI · Prometheus**
 
@@ -154,7 +154,7 @@
 </details>
 
 
-### ☸️ [KubeFit](https://github.com/sangmu1126/Kubefit) · Kubernetesリソース最適化
+### [KubeFit](https://github.com/sangmu1126/Kubefit) · Kubernetesリソース最適化
 
 **Kubernetes · Prometheus · AWS EKS · Helm · k6 · Python · GitOps**
 
